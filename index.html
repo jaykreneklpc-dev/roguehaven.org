@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rogue Haven – Counseling & Coaching</title>
+  <meta name="description" content="Resilience-focused counseling and coaching for high performers, couples, and leaders across Texas. Rogue Haven is the landing space for Jay Krenek, LPC—book a consult or explore services." />
+  <meta property="og:title" content="Rogue Haven – Counseling & Coaching" />
+  <meta property="og:description" content="Resilience-focused counseling and coaching for high performers, couples, and leaders across Texas." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://roguehaven.org" />
+  <meta name="theme-color" content="#0f0f10" />
+  <link rel="icon" href="/favicon.ico" />
+  <style>
+    :root{
+      --rose:#B76E79; /* Rose gold accent */
+      --rose-soft:#E7C5CC;
+      --charcoal:#0f0f10;
+      --ink:#17181a;
+      --stone:#f5f5f7;
+      --muted:#9ca3af;
+      --white:#fff;
+      --success:#16a34a;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+      color:var(--stone); background:radial-gradient(1200px 600px at 80% -10%, rgba(183,110,121,0.18), transparent 60%), linear-gradient(180deg, #101113 0%, #0b0c0d 100%);
+      -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+    }
+    a{color:inherit; text-decoration:none}
+    .container{width:min(1120px, 92vw); margin-inline:auto}
+
+    /* Header */
+    header{position:sticky; top:0; z-index:20; backdrop-filter:blur(8px); background:rgba(10,11,12,0.55); border-bottom:1px solid rgba(231,197,204,0.12)}
+    .nav{display:flex; align-items:center; justify-content:space-between; padding:14px 0}
+    .brand{display:flex; gap:12px; align-items:center}
+    .logo{width:36px; height:36px; border-radius:10px; background:linear-gradient(135deg, var(--rose), #7a3a43); display:grid; place-items:center; box-shadow: 0 6px 24px rgba(183,110,121,0.35)}
+    .logo span{font-weight:800; letter-spacing:0.5px}
+    .wordmark{font-weight:700; letter-spacing:0.5px}
+    .badge{font-size:12px; color:var(--rose-soft); border:1px solid rgba(231,197,204,0.3); padding:4px 10px; border-radius:999px}
+
+    /* Hero */
+    .hero{padding:72px 0 48px; display:grid; grid-template-columns: 1.1fr 0.9fr; gap:36px}
+    .eyebrow{color:var(--rose-soft); text-transform:uppercase; letter-spacing:1.8px; font-size:12px}
+    h1{font-size: clamp(28px, 5vw, 52px); line-height:1.06; margin:10px 0 16px; color:white}
+    .lead{font-size: clamp(16px, 2.2vw, 20px); color:#d5d6d8; max-width:58ch}
+    .ctaRow{display:flex; gap:12px; margin-top:22px; flex-wrap:wrap}
+    .btn{display:inline-flex; align-items:center; gap:10px; padding:12px 18px; border-radius:12px; border:1px solid rgba(231,197,204,0.28); background:rgba(231,197,204,0.08); color:white; font-weight:600}
+    .btn.primary{background:linear-gradient(135deg, var(--rose), #7a3a43); border-color:transparent; box-shadow:0 8px 28px rgba(183,110,121,0.35)}
+    .btn:hover{transform:translateY(-1px)}
+
+    .card{background:rgba(255,255,255,0.03); border:1px solid rgba(231,197,204,0.16); padding:18px; border-radius:16px}
+    .grid-3{display:grid; grid-template-columns: repeat(3, 1fr); gap:14px}
+
+    /* Section */
+    section{padding:42px 0}
+    h2{font-size: clamp(22px, 4vw, 34px); color:white; margin:0 0 10px}
+    p{color:#c8c9cb}
+
+    /* List */
+    .list{display:grid; gap:10px; margin:12px 0}
+    .list .item{display:flex; gap:10px; align-items:flex-start}
+    .dot{width:18px; height:18px; border:1px solid rgba(231,197,204,0.35); border-radius:50%; display:grid; place-items:center; flex:0 0 auto}
+    .dot::after{content:""; width:8px; height:8px; background:var(--rose); border-radius:50%}
+
+    /* Email capture */
+    .newsletter{display:flex; gap:10px; flex-wrap:wrap; margin-top:14px}
+    input[type=email]{flex:1 1 260px; background:#0f1113; border:1px solid rgba(231,197,204,0.22); color:white; padding:12px 14px; border-radius:12px}
+
+    /* Footer */
+    footer{padding:28px 0 56px; color:#a9aaac; border-top:1px solid rgba(231,197,204,0.12)}
+
+    /* Responsive */
+    @media (max-width: 900px){
+      .hero{grid-template-columns: 1fr; padding-top:40px}
+      .grid-3{grid-template-columns: 1fr}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo"><span>RH</span></div>
+        <div class="wordmark">Rogue Haven</div>
+      </div>
+      <a class="badge" href="https://jaykrenek.com" target="_blank" rel="noopener">Visit Main Site</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="container hero">
+      <div>
+        <div class="eyebrow">Counseling • Coaching • Texas</div>
+        <h1>Resilience‑focused care for high performers, couples, and leaders.</h1>
+        <p class="lead">Rogue Haven is the landing space for <strong>Jay Krenek, LPC</strong>. If you’re carrying the weight of a career, a relationship, and everyone else’s expectations, this is where you set it down—and build something stronger.</p>
+        <div class="ctaRow">
+          <a class="btn primary" href="mailto:jaykreneklpc@gmail.com?subject=Consultation%20Request%20(Rogue%20Haven)">Book a consult</a>
+          <a class="btn" href="https://jaykrenek.com" target="_blank" rel="noopener">Explore services</a>
+        </div>
+        <div class="grid-3" style="margin-top:20px">
+          <div class="card"><strong>Couples</strong><br/><span class="muted">Communication, intimacy, rebuilding after rupture</span></div>
+          <div class="card"><strong>High performers</strong><br/><span class="muted">Burnout, anxiety, leadership strain</span></div>
+          <div class="card"><strong>LGBTQ+</strong><br/><span class="muted">Identity‑affirming, trauma‑informed care</span></div>
+        </div>
+      </div>
+      <div>
+        <div class="card">
+          <h2 style="margin-top:0">What to expect</h2>
+          <div class="list">
+            <div class="item"><div class="dot"></div><div>
+              <strong>Direct, practical sessions</strong><br/>
+              Tools you can use this week, not someday.
+            </div></div>
+            <div class="item"><div class="dot"></div><div>
+              <strong>Evidence‑based & human</strong><br/>
+              CBT/DBT/EMDR‑informed approaches with real‑world language.
+            </div></div>
+            <div class="item"><div class="dot"></div><div>
+              <strong>Results you can feel</strong><br/>
+              Less reactivity, more clarity; stronger relationships, calmer days.
+            </div></div>
+          </div>
+          <div style="margin-top:16px; font-size:14px; color:#9ca3af">Texas telehealth • Denton area in‑person by appointment</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <h2>Get one helpful mental health tip each week</h2>
+      <p>Short, practical, therapist‑written. No spam. Unsubscribe anytime.</p>
+      <form class="newsletter" action="#" method="post">
+        <input type="email" name="email" placeholder="you@address.com" required />
+        <button class="btn primary" type="submit">Join the list</button>
+        <div style="flex-basis:100%; font-size:12px; color:#9ca3af">Don’t like forms? <a href="mailto:jaykreneklpc@gmail.com?subject=Subscribe%20me%20to%20weekly%20tips">Email me to subscribe</a>.</div>
+      </form>
+    </section>
+
+    <section class="container">
+      <div class="card">
+        <h2 style="margin-top:0">About Rogue Haven</h2>
+        <p>Rogue Haven is a simple doorway into services by Jay Krenek, LPC. We focus on high‑achieving professionals, couples, and LGBTQ+ clients who want direct, effective care—without fluff. If you value excellence and want a therapist who gets the pressure you’re under, you’re in the right place.</p>
+        <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:10px">
+          <a class="btn" href="https://headway.co/providers/jay-krenek" target="_blank" rel="noopener">Check insurance (Headway)</a>
+          <a class="btn" href="https://substack.com" target="_blank" rel="noopener">Read the newsletter</a>
+          <a class="btn" href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container" style="display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap">
+      <div>© <span id="y"></span> Rogue Haven • All rights reserved</div>
+      <div style="color:#9ca3af">Site by Jay Krenek • <a href="https://jaykrenek.com" target="_blank" rel="noopener">jaykrenek.com</a></div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+    // TODO: Hook newsletter form to Formspree / ConvertKit / Substack later
+  </script>
+</body>
+</html>
